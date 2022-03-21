@@ -1,0 +1,404 @@
+nav{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.9);
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.title-menu{
+    width: 500%;
+    margin-left: 50px;
+}
+
+.item-menu{
+    width: 500%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    font-weight: 700;
+    font-size: 100%;
+    color: #868fa1;
+}
+
+.btn-azul{
+    width: 120px;
+    height: 40px;
+    font-weight: 700;
+    background: #3454d2;
+    color: white;
+    border-radius: 5px;
+    border:none;
+}
+
+.title-menu{
+    font-weight: 700;
+    font-size: 150%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #3453cc;
+}
+
+
+.title1{
+    font-size: 400%;
+    color: #0e2450;
+}
+
+.text-secondary{
+    font-size: 100%;
+    color: #868fa1;
+}
+
+
+.seccion1{
+    display: flex;
+    width: 100%;
+    height: 725px;
+}
+
+
+.info{
+    width: 50%;
+    height: 725px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.yellow-icons{
+    padding: 5px;
+    box-shadow: 3px 3px 4px rgba(157, 160, 11, 0.336);
+    color: #ffd11a;
+    background-color: #fffbeb;
+    margin: 10px;
+}
+
+.btn-icon{
+    text-decoration: none;
+    color: #4a638d;
+    font-weight: 700;
+}
+.blue-btn{
+    font-size: 120%;
+    text-decoration: none;
+    color: #1f3e72;
+    font-weight: 700;
+}
+
+.blue-icons{
+    color:#2d4dcb;
+    padding: 5px;
+    padding-top: 8px;
+    margin-right: 10px;
+    box-shadow: 3px 3px 4px rgba(59, 65, 126, 0.4);
+    background: #e9f1fe;
+    border-radius: 5px;
+}
+
+
+.doctora-imagen{
+    width: 80%;
+    height: 100%;
+    left: 200px;
+}
+
+.image-doctora{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 725px;
+    background: linear-gradient(90deg, rgba(10, 151, 230, 1) 0%, rgba(41, 114, 222, 1) 70%, rgba(41, 114, 222, 1) 100%);
+}
+
+.card-floating{
+    display: flex;
+    background-color: lightblue;
+    height: 150px;
+    left: 50px;
+    position: relative;
+    top: 40px;
+    width: 100%;
+    left: 200px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 2px 10px 1px;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-float-card{
+    float:left;
+}
+
+.text-strong-card-floating{
+    color: #1f3e72;
+    font-size: x-large;
+}
+
+.seccion2{
+    display: flex;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px 100px;
+    opacity: 0.5;
+    margin: 0px 30px; 
+}
+
+.seccion3{
+    width: 1000px;
+}
+
+.title-reason{
+    margin-left: 100px;
+    font-size: 200%;
+    color: #0e2450;
+    font-weight: 900;
+}
+
+.seccion3 p {
+    font-size: 100%;
+    width: 400px;
+    line-height:1.5625rem;
+    margin-left: 100px;
+}
+
+.seccion4{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.card{
+    box-shadow: rgb(0 0 0 / 10%) 1px 3px 5px;
+    width: 15%;
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contenedor h2{
+    color: #506891;
+}
+.contenedor p{
+    color: #7c889e;
+}
+
+.seccion5{
+    display: flex;
+    width: 100%;
+}
+
+
+.image-doctora2{
+    width: 50%;
+}
+
+.image-doctora2 img{
+    width: 100%;
+}
+
+.preparations-before{
+    width: 50%;
+}
+
+.preparations-before h1{
+    color: #1f3e72;
+    font-size: 350%;
+}
+
+.preparations-before p{
+    color: #7a879d;
+    font-size: 130%;
+}
+
+.list-items-preparations{
+    display: flex;
+    
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.list-item-preparation{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 10%) 2px 2px 5px;
+}
+
+
+.list-item-preparation p{
+    margin-right: 10px;
+    font-size: 100%;
+}
+
+.seccion6{
+    display: flex;
+    width: 100%;
+}
+
+.image-doctor{
+    width: 50%;
+}
+
+.doctor-imagen{
+    width: 100%;
+}
+
+.cards-doctor{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.card-doctor{
+    width: 35%;
+    box-shadow: rgb(0 0 0 / 10%) 1px 3px 5px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.card-doctor button{
+    width: 70%;
+    height: 50px;
+    margin-left: 50px; 
+}
+
+.icons-text{
+    display: flex;
+}
+
+.card-doctor i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#2d4dcb;
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+    padding-top: 8px;
+    margin-right: 10px;
+    box-shadow: 3px 3px 4px rgba(59, 65, 126, 0.4);
+    background: #e9f1fe;
+    border-radius: 5px;
+}
+
+
+.btn-opaque{
+    width: 120px;
+    height: 40px;
+    font-weight: 700;
+    background: #f1f5ff;
+    color: #4662d0;
+    border-radius: 5px;
+    border:none;
+    display: inline-block;
+    
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+.card-doctor h3{
+    color: #1f3e72;
+    width: 400px;
+}
+
+.text p{
+    color: #8d98aa;
+}
+
+footer{
+    background: #eef3ff;
+    display: flex;
+    width: 100%;
+}
+
+footer h2{
+    color: #1f3e72;
+}
+
+
+footer p{
+    color:    #75829a;
+}
+
+footer li{
+    color:    #75829a;
+}
+
+.Vaccination{
+    width: 60%;
+    padding-left: 60px;
+}
+
+.About{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.About ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.company ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Support{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Support ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
